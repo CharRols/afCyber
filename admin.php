@@ -11,7 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo "You logged in as admin";
+            session_start();
+            if (isset($_SESSION['login_type']) && $_SESSION['login_type'] == "admin" && isset($_SESSION["login_user"])) {
+                echo "You logged in as admin";
+            } else {
+                echo "<a href = \"index.php\">You must login to view this page.</a>";
+            }
+            
         ?>
     </body>
 </html>

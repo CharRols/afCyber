@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <?php include 'PHP/login.php';?>
+        <?php require 'PHP/login.php';?>
         <title></title>
     </head>
     <body>
