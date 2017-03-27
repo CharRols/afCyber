@@ -29,6 +29,7 @@ and open the template in the editor.
        <ul>
          <li><a href="index.php">| Home |</a></li>
          <li><a href="login.php" id = "login">| Log in |</a></li>
+        <li><a href = "courses.html">| Courses |</a></li>
          <li><a href="search.php">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>
