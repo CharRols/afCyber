@@ -20,16 +20,14 @@
    </head>
  
    <body>
-   <header>
-     <img src = "images/home.png" alt="Home">
-     
+   <header>     
      <h1>Cyber Training Hub</h1>
      
      <nav>
        <ul>
          <li><a href="index.php">| Home |</a></li>
          <li><a href="login.php">| Log in |</a></li>
-         <li><a href="search.php" id = "search">| Search |</a></li>
+         <li id = "search">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>
      </nav>
@@ -47,7 +45,7 @@
    </main>
    
    <footer>
-     <p>Footer</p>
+    <img src = "images/home.png" alt="Home">
    </footer>
  
    </body>

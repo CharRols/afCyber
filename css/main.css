@@ -68,9 +68,8 @@ header, footer {
   color: white;
 }
 
-header img{
-  margin-left: 2%;
-  float: left;
+footer img{
+  margin-top: 3px;
 }
 
 header{

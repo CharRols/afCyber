@@ -22,9 +22,7 @@ and open the template in the editor.
         <script src="scripts/main.js"></script>  
     </head>
     <header>
-     <?php connect("localhost", "root", "");?>
-     <img src = "images/home.png" alt="Home">
-     
+     <?php connect("localhost", "root", "");?>     
      <h1>Cyber Training Hub</h1>
      
      <nav>
@@ -53,7 +51,7 @@ and open the template in the editor.
    </main>
    
    <footer>
-     <p>Footer</p>
+    <img src = "images/home.png" alt="Home">
    </footer>
  
    </body>

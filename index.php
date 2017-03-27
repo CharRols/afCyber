@@ -23,7 +23,7 @@ and open the template in the editor.
             <h1>Cyber Training Hub</h1>
             <nav>
                 <ul>
-                    <li class = "homeop"><a href="index.html">| Home |</a></li>
+                    <li id = "homeop">| Home |</a></li>
                     <li><a href="login.php">| Log in |</a></li>
                     <li><a href="search.php">| Search |</a></li>
                     <li><a href="about.html">| About |</a></li>
@@ -52,7 +52,7 @@ and open the template in the editor.
         </main>
   
         <footer>
-          <p>Footer</p>
+          <img src = "images/home.png" alt="Home">
         </footer>
     </body>
 </html>
