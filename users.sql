@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 26, 2017 at 07:50 PM
+-- Generation Time: Mar 27, 2017 at 06:25 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -38,8 +38,11 @@ CREATE TABLE `pages` (
 --
 
 INSERT INTO `pages` (`PageID`, `Title`, `Description`, `URL`) VALUES
-(1, 'PHP Programming', 'This page is an introduction to PHP', 'php.html'),
-(2, 'MYSQL', 'This page is an introduction to MySQL', 'mysql.html');
+(1, 'Fundamental Theorem of Calculus', '', 'calc.html'),
+(2, 'Expected Value', '', 'expvalue.html'),
+(3, 'Introduction to Random Variables', '', 'randomvar.html'),
+(4, 'Introduction to Probability and Statistics', '', 'prob.html'),
+(5, 'Introduction to Standard Deviation', '', 'stddev.html');
 
 -- --------------------------------------------------------
 
