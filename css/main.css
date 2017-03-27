@@ -71,7 +71,7 @@ header, footer {
 header img{
   margin-left: 2%;
   float: left;
-  }
+}
 
 header{
   font-size: 150%;
@@ -86,8 +86,8 @@ nav{
   padding-bottom: 1%;
 }
 
-.homeop{
-  display:none;
+#homeop, #login, #search, #about{
+  font-weight: bold;
 }
 
 footer{

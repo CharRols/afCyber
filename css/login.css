@@ -1,0 +1,10 @@
+form{
+	margin-left: 30%;
+}
+
+
+#name, #passw {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+}​
