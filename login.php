@@ -29,9 +29,9 @@ and open the template in the editor.
      
      <nav>
        <ul>
-         <li><a href="index.html">| Home |</a></li>
-         <li><a href="login.html" id = "login">| Log in |</a></li>
-         <li><a href="search.html">| Search |</a></li>
+         <li><a href="index.php">| Home |</a></li>
+         <li><a href="login.php" id = "login">| Log in |</a></li>
+         <li><a href="search.php">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>
      </nav>

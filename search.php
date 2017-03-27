@@ -27,9 +27,9 @@
      
      <nav>
        <ul>
-         <li><a href="index.html">| Home |</a></li>
-         <li><a href="login.html">| Log in |</a></li>
-         <li><a href="search.html" id = "search">| Search |</a></li>
+         <li><a href="index.php">| Home |</a></li>
+         <li><a href="login.php">| Log in |</a></li>
+         <li><a href="search.php" id = "search">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>
      </nav>
@@ -38,6 +38,9 @@
  
    <main>  
      <h2>Search</h2>
+     <form action ="" method="post">
+         <input type ="text" id ="searchbar" name ="search"><input type="submit" value="Search" name="submit"> 
+     </form>
      <?php
         connect("localhost", "root", "");
      ?>
