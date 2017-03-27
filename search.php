@@ -44,11 +44,9 @@
         connect("localhost", "root", "");
      ?>
    </main>
-   
-   <footer>
-    <img src = "images/home.png" alt="Home">
-   </footer>
  
    </body>
- 
+ <footer>
+    <img src = "images/home.png" alt="Home">
+   </footer>
  </html>
