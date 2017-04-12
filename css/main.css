@@ -64,7 +64,7 @@ select {
 
 header, footer {
   text-align: center;
-  background: #009933;
+  background-image: url("./../images/metal.jpg");
   color: white;
 }
 
@@ -87,6 +87,7 @@ nav{
 
 #homeop, #login, #search, #about, #courses{
   font-weight: bold;
+  font-size: 110%;
 }
 
 footer{
@@ -100,11 +101,10 @@ nav li {
 body h2:first-of-type{
   text-align: center;
 }
-
+/*
 li.login, li.search, li.about, li.contact, li#homeop{
   font-weight: bold;
-  font-size: 110%;
-}
+}*/
 
 @media (max-width: 800px){
   nav li, .homeop{
