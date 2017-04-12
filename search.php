@@ -21,13 +21,13 @@
  
    <body>
    <header>     
-     <h1>Cyber Training Hub</h1>
+     <h1><a href = "index.php">Cyber Training Hub</a></h1>
      
      <nav>
        <ul>
          <li><a href="index.php">| Home |</a></li>
          <li><a href="login.php">| Log in |</a></li>
-         <li><a href = "courses.html">| Courses |</a></li>
+         <li><a href = "courses.html">| Videos |</a></li>
          <li id = "search">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>

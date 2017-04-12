@@ -1,70 +1,19 @@
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-/*------------------From JQuery UI----------------------------------------------*/
-
-body{
-	margin: 50px;
-}
-
-.demoHeaders {
-	margin-top: 2em;
-}
-
-#dialog-link {
-	padding: .4em 1em .4em 20px;
-	text-decoration: none;
-	position: relative;
-}
-
-#dialog-link span.ui-icon {
-	margin: 0 5px 0 0;
-	position: absolute;
-	left: .2em;
-	top: 50%;
-	margin-top: -8px;
-}
-
-#icons {
-	margin: 0;
-	padding: 0;
-}
-
-#icons li {
-	margin: 2px;
-	position: relative;
-	padding: 4px 0;
-	cursor: pointer;
-	float: left;
-	list-style: none;
-}
-
-#icons span.ui-icon {
-	float: left;
-	margin: 0 4px;
-}
-  
-.fakewindowcontain .ui-widget-overlay {
-	position: absolute;
-}
-
-select {
-	width: 200px;
-}
-
-/*---------------------------------end CSS from jquery UI------------------------*/
-*{
-  color: Black;
-  text-decoration: none;
+  height: 100%;
+  margin: 50px;
+  padding: 0;
+  background-color: #e0e0d2;
 }
 
 header, footer {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
   background-image: url("./../images/metal.jpg");
+}
+
+header a{
+  text-decoration: none;
   color: white;
 }
 
@@ -95,24 +44,17 @@ footer{
 }
 
 nav li {
-  display: inline;
-}
+  display: inline;}
 
 body h2:first-of-type{
   text-align: center;
 }
-/*
-li.login, li.search, li.about, li.contact, li#homeop{
-  font-weight: bold;
-}*/
 
 @media (max-width: 800px){
   nav li, .homeop{
     display: block; 
   }
-  header img{
-    display: none;
-  }
+
   nav{
     padding-top: 0;
   }

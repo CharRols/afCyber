@@ -23,13 +23,13 @@ and open the template in the editor.
     </head>
     <header>
      <?php connect("localhost", "root", "");?>     
-     <h1>Cyber Training Hub</h1>
+     <h1><a href = "index.php">Cyber Training Hub</a></h1>
      
      <nav>
        <ul>
          <li><a href="index.php">| Home |</a></li>
-         <li><a href="login.php" id = "login">| Log in |</a></li>
-        <li><a href = "courses.html">| Courses |</a></li>
+         <li id = "login">| Log in |</li>
+        <li><a href = "courses.html">| Videos |</a></li>
          <li><a href="search.php">| Search |</a></li>
          <li><a href="about.html">| About |</a></li>
        </ul>
