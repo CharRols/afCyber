@@ -39,7 +39,7 @@ and open the template in the editor.
  
    <main>  
      <h2>Log into your account</h2>
-     <form action="" method = "post"><!-------------------------------------------------------------THIS NEEDS DONE------------------------------------->
+     <form action="profile.php" method = "post"><!-------------------------------------------------------------THIS NEEDS DONE------------------------------------->
      <p>
  			<label for="uname" id="name">Username</label>
  			<input type="text" name="uname" required><br><br>
